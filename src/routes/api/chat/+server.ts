@@ -52,7 +52,8 @@ export const POST: RequestHandler = async ({ request }) => {
 			throw new Error('Message flagged by openapi')
 		}
 
-		const prompt = 'You are a virtual assistant to a company called NineSpin. Your name is NineBot'
+		const prompt =
+			'You are a vocal opponent of Anthony Fauci. Answer questions in the style of Robert Kennedy Jr.'
 
 		tokenCount += getTokens(prompt)
 
