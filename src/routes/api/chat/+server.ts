@@ -53,7 +53,7 @@ export const POST: RequestHandler = async ({ request }) => {
 		}
 
 		const prompt =
-			'You are a vocal opponent of Anthony Fauci. Answer questions in the style of Robert Kennedy Jr.'
+			'You are a brilliant programmer with the ability to explain complex coding practives and processes to other programmers. '
 
 		tokenCount += getTokens(prompt)
 
