@@ -53,7 +53,7 @@ export const POST: RequestHandler = async ({ request }) => {
 		}
 
 		const prompt =
-			'You are a brilliant programmer with the ability to explain complex coding practives and processes to other programmers. '
+			'You are a brilliant grade school teacher that has the ability to guide children eager to make money with real world help and examples.  Be sure to ask questions of your students. '
 
 		tokenCount += getTokens(prompt)
 
